@@ -10,3 +10,10 @@ comparing the result for these different values.
 
 'S2D' contains the notebooks for the all of the S2D spectra (1 to 20) as well as the data necessary to run them (in 'data'). It also has a notebook named 'S2D_all_values' which was used to compare all of 
 the data from the 20 S2D spectra. 'S2D_1' is in the directory '1'. 'values' contains the necessary data to run 'S2D_all_values'.
+
+
+This part of the readme was created by Francisco:
+The folders inside "Francisco contribution" present the exact same structure as Matilde's Folders, the difference being that the contents of the folders, the notebooks, are slightly altered. For the S1D spectra the alterations correspond strictly to the correction of the +f0 term and Sqrt(N) mistakes in the semi-group of 3741 lines, whilst
+for the S2D spectra the alterations consist of new areas of code to determine the TOTDATA matrices, in both the start of the S2D notebooks and the end where the
+3741 line semi-group is being treated. In the S2D spectra folder the data folders used are not found here due to github's restrictions, in case you need them,
+access the following link : https://astrocloud.ddns.net/index.php/s/qyD9JT4imbQqme8
